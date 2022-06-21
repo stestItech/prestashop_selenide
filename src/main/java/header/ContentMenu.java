@@ -1,9 +1,6 @@
 package header;
 
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.Actions;
 import pages.CataloguePage;
 
 import static com.codeborne.selenide.Selectors.byLinkText;

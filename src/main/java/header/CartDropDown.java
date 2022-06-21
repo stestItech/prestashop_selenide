@@ -8,9 +8,9 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class CartDropDown {
 
-    private final SelenideElement cartDropDown = $(byXpath("//a[@title='Посмотреть корзину']"));
+    private final SelenideElement cartDropDown = $(byXpath("//a[@title='View my shopping cart']"));
     private final SelenideElement checkoutButton =
-            $(byXpath("//a[@id='button_order_cart']/span[contains(text(),'Оформить заказ')]"));
+            $(byXpath("//a[@id='button_order_cart']/span[contains(text(),'Proceed to checkout')]"));
 
     public void hoverOverCartDropDown() {
         cartDropDown.hover();
